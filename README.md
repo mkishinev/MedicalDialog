@@ -27,7 +27,7 @@ Before and after doctor appointments, you have a dialog with an AI assistant to:
 Works with Claude Projects, Gemini Gems, and ChatGPT Projects using the same template files.
 
 ## Repository structure
-
+```
 MedicalDialog/
 ├── README.md
 ├── LICENSE
@@ -58,6 +58,7 @@ MedicalDialog/
     ├── claude_projects.md
     ├── gemini_gems.md
     └── chatgpt_projects.md
+```
 	
 ## Getting started
 
