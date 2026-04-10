@@ -37,7 +37,7 @@ MedicalDialog/
 │   ├── medications.md      ← current medications & supplements
 │   ├── labs.csv            ← labs results
 │   ├── imaging_and_procedures.md  ← imaging and procudere reports (imaging like X-ray, MRI results, colonoscopy, pathology reports, etc.)
-│   └── AI_instructions     ← instructions imaging and procudures reports (X-ray, MRI, colonoscopy, pathology reports, etc.)
+│   └── AI_instructions     ← instructions imaging and procedures reports (X-ray, MRI, colonoscopy, pathology reports, etc.)
 ├── file_examples/
 │   ├── medical_summary.md  ← short personal medical history
 │   ├── medications.md      ← current medications & supplements
