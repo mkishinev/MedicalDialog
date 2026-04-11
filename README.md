@@ -8,12 +8,13 @@ What this is not: Medical advice, a diagnostic tool, or an emergency resource. I
 
 ## The problem
 
-Most people walk into medical appointments underprepared. Symptoms get forgotten under pressure, lab results arrive with no context, and the 15 minutes with a doctor disappears before you've asked what you needed to ask. Doctors spend a significant portion of each appointment on basic Q&A that a prepared patient wouldn't need.
+Most people walk into medical appointments under-prepared. Symptoms get forgotten under pressure, lab results arrive with no context, 
+and the 15 minutes with a doctor disappears before you've asked what you needed to ask. Doctors spend a significant portion of each 
+appointment on basic Q&A that a prepared patient wouldn't need.
 
 ## What MedicalDialog does
 
 You maintain a structured personal health files. 
-
 If you receive new medical information from doctor visits, tests, or hospital visits you update the files to always keep information current. 
 
 Before and after doctor appointments, you have a dialog with an AI assistant to:
@@ -27,6 +28,7 @@ Before and after doctor appointments, you have a dialog with an AI assistant to:
 Works with Claude Projects, Gemini Gems, and ChatGPT Projects using the same template files.
 
 ## Repository structure
+
 ```
 MedicalDialog/
 ├── README.md
@@ -42,7 +44,7 @@ MedicalDialog/
 │   ├── medical_summary.md  ← short personal medical history
 │   ├── medications.md      ← current medications & supplements
 │   ├── labs.csv            ← labs results
-│   ├── imaging_and_procedures.md  ← imaging and procudere reports (X-ray, MRI results, colonoscopy, pathology reports, etc.)
+│   ├── imaging_and_procedures.md  ← imaging and procedure reports (X-ray, MRI results, colonoscopy, pathology reports, etc.)
 │   └── AI_instructions     ← instructions to Claude project, ChatGPT project or Gemini gem.
 ├── dialog_examples/
 │   ├── dialog1.md  ← example of a dialog
@@ -53,7 +55,7 @@ MedicalDialog/
 │   ├── labs_update.md  ← updates of labs results
 │   ├── new_labs.pdf    ← new labs results in a pdf format
 │   ├── imaging_and_procedures_update.md  ← update of imaging and procedures
-│   └── new_xray.pdf  ← new imaging result in a pdf format
+│   └── new_xray.pdf  ← new imaging result in a PDF format
 └── setup/
     ├── claude_projects.md
     ├── gemini_gems.md
@@ -65,7 +67,7 @@ MedicalDialog/
 	* Copy the template/ files and fill them in with your own health information. Follow examples in file_examples.
 	* Follow the setup guide for your AI platform of choice in setup/
 	* To understand how to interact with the system, try the example queries in dialog_examples
-	* Interact with the system before or after doctor appointment, when you get new medical informaation or when you have medical questions.
+	* Interact with the system before or after doctor appointment, when you get new medical information or when you have medical questions.
 
 ## Status
 
