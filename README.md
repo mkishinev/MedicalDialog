@@ -34,28 +34,27 @@ MedicalDialog/
 ├── README.md
 ├── LICENSE
 ├── DISCLAIMER.md
-├── templates/
+├── instructions.md         ← instructions to AI systems
+├── templates/        ← templates that you will fill with the user information
 │   ├── medical_summary.md  ← short personal medical history
 │   ├── medications.md      ← current medications & supplements
 │   ├── labs.csv            ← labs results
-│   ├── imaging_and_procedures.md  ← imaging and procedure reports (X-ray, MRI results, colonoscopy, pathology reports, etc.)
-│   └── AI_instructions     ← instructions to AI system
-├── file_examples/
+│   └── imaging_and_procedures.md  ← imaging and procedure reports (X-ray, MRI results, colonoscopy, pathology reports, etc.)
+├── file_examples/     ← examples of filled files for an imaginary person
 │   ├── medical_summary.md  ← short personal medical history
 │   ├── medications.md      ← current medications & supplements
 │   ├── labs.csv            ← labs results
-│   ├── imaging_and_procedures.md  ← imaging and procedure reports (X-ray, MRI results, colonoscopy, pathology reports, etc.)
-│   └── AI_instructions     ← instructions to Claude project, ChatGPT project or Gemini gem.
-├── dialog_examples/
-│   ├── dialog1.md  ← example of a dialog
-│   ├── dialog2.md  ← example of a dialog
-│   └── dialog3.md  ← example of a dialog
-├── updates_examples/
+│   └── imaging_and_procedures.md  ← imaging and procedure reports (X-ray, MRI results, colonoscopy, pathology reports, etc.)
+├── dialog_examples/   ← examples of interacting with AI systems 
+│   ├── dialog1.md          ← example of a dialog
+│   ├── dialog2.md          ← example of a dialog
+│   └── dialog3.md          ← example of a dialog
+├── updates_examples/  ← examples of updating medical information with assistance from the AI system 
 │   ├── medications_update.md  ← update of medications
-│   ├── labs_update.md  ← updates of labs results
-│   ├── new_labs.pdf    ← new labs results in a pdf format
+│   ├── labs_update.md         ← updates of labs results
+│   ├── new_labs.pdf           ← new labs results in a pdf format
 │   ├── imaging_and_procedures_update.md  ← update of imaging and procedures
-│   └── new_xray.pdf  ← new imaging result in a PDF format
+│   └── new_xray.pdf           ← new imaging result in a PDF format
 └── setup/
     ├── claude_projects.md
     ├── gemini_gems.md
@@ -65,8 +64,12 @@ MedicalDialog/
 ## Getting started
 
 	* Copy the template/ files and fill them in with your own health information. Follow examples in file_examples.
+		* For labs.csv use assistance of an AI system as explained in updates_examples/labs_update.md
+		* For imaging_and_procedures.md use assistance of an AI system as explained in updates_examples/imaging_and_procedures_update.md
+		* For medications.md see updates_examples/medications_update.md
+		* Create medical_summary.md yourself in any text editor (e.g. notepad++) using the corresponding example in file_examples.
 	* Follow the setup guide for your AI platform of choice in setup/
-	* To understand how to interact with the system, try the example queries in dialog_examples
+	* To understand how to interact with the system, look at the example queries in dialog_examples and try your queries. 
 	* Interact with the system before or after doctor appointment, when you get new medical information or when you have medical questions.
 
 ## Status
