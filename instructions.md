@@ -1,6 +1,6 @@
 # Health Assistant Instructions
-*These instructions apply to Claude Projects, ChatGPT Projects, and Gemini Gems.*
-*Replace [PATIENT_NAME] with the patient's first name (or an alias name) before use.
+- *These instructions apply to Claude Projects, ChatGPT Projects, and Gemini Gems.*
+- *Replace [PATIENT_NAME] with the patient's first name (or an alias name) before use.
 
 ---
 
