@@ -1,6 +1,6 @@
 # Medical Master Summary — Nick.
-**Last Updated:** 2026-04-12
-**Born in August 1966
+- **Last Updated:** 2026-04-12
+- **Born: ** August 1966
  
 ## Active Diagnoses (with dates and status)
  
@@ -23,10 +23,11 @@
  
 - **Sulfonamides** — Allergy — Rash and urticaria
 - **NSAIDs (ibuprofen, naproxen)** — Intolerance — GI distress; use cautiously given cardiovascular history
+- **Lactose** - Intolerance
  
 ## Family History (relevant only)
  
-- **Father:** Myocardial infarction at age 58 — fatal; also Type 2 diabetes diagnosed at 52
+- **Father:** Myocardial infarction at age 58 — fatal; also Type 2 diabetes (T2DM) diagnosed at 52
 - **Mother:** Hypertension; osteoporosis; alive at 84
 - **Brother (older, age 64):** ASCVD, on statin therapy; hypertension
  

@@ -1,0 +1,107 @@
+Date,Category,Marker,Result,Units,Reference Range,Notes,Aliases
+1/15/2026,Vitals,Systolic Blood Pressure,128,mmHg,<120,Clinic measurement; seated 5 min rest,SBP
+1/15/2026,Vitals,Diastolic Blood Pressure,80,mmHg,<80,Clinic measurement; seated 5 min rest,DBP
+1/15/2026,Vitals,Heart Rate,65,bpm,60-100,Resting; athlete range acceptable,HR
+1/15/2026,CMP,Glucose,101,mg/dL,70-99,Fasting: Yes; still prediabetes range; continued gradual improvement,FBG
+1/15/2026,CMP,BUN,14,mg/dL,20-Jul,Fasting: Yes,BUN
+1/15/2026,CMP,Creatinine,1.05,mg/dL,0.74-1.35,Fasting: Yes; stable on ACE inhibitor,Cr
+1/15/2026,CMP,eGFR,75,mL/min/1.73m²,>60,Fasting: Yes; stable; mild age-related decline,eGFR
+1/15/2026,CMP,Sodium,141,mEq/L,136-145,Fasting: Yes,Na
+1/15/2026,CMP,Potassium,4.1,mEq/L,3.5-5.1,Fasting: Yes; stable on ACE inhibitor,K
+1/15/2026,CMP,Chloride,103,mEq/L,98-107,Fasting: Yes,Cl
+1/15/2026,CMP,CO2,25,mEq/L,22-29,Fasting: Yes,CO2
+1/15/2026,CMP,Calcium,9.6,mg/dL,8.6-10.2,Fasting: Yes,Ca
+1/15/2026,CMP,Total Protein,7.3,g/dL,6.4-8.3,Fasting: Yes,TP
+1/15/2026,CMP,Albumin,4.4,g/dL,3.5-5.0,Fasting: Yes,Alb
+1/15/2026,CMP,Total Bilirubin,0.6,mg/dL,0.2-1.2,Fasting: Yes,TBili
+1/15/2026,CMP,AST,22,U/L,Oct-40,Fasting: Yes; statin monitoring; stable,AST
+1/15/2026,CMP,ALT,24,U/L,Jul-56,Fasting: Yes; statin monitoring; stable,ALT
+1/15/2026,CMP,Alkaline Phosphatase,70,U/L,44-147,Fasting: Yes,ALP
+1/15/2026,Lipids,Total Cholesterol,151,mg/dL,<200,Fasting: Yes,TC
+1/15/2026,Lipids,LDL Cholesterol (calculated),77,mg/dL,<70,Fasting: Yes; at target,LDL
+1/15/2026,Lipids,HDL Cholesterol,58,mg/dL,>40,Fasting: Yes; excellent; exercise effect,HDL
+1/15/2026,Lipids,Triglycerides,82,mg/dL,<150,Fasting: Yes; excellent,TG
+1/15/2026,Lipids,Non-HDL Cholesterol,93,mg/dL,<100,Fasting: Yes; at target,Non-HDL
+1/15/2026,Lipids,ApoB,86,mg/dL,<80,Fasting: Yes; at target,ApoB
+1/15/2026,Lipids,Lipoprotein(a),90,nmol/L,<75,Fasting: Yes; elevated; genetic; not responsive to statin therapy; discuss with cardiologist,"Lpa, Lp(a)"
+1/15/2026,Diabetes,HbA1c,5.7,%,<5.7,Fasting: No; borderline normal/prediabetes; best result yet,A1c
+1/15/2026,Diabetes,Fasting Insulin,7.2,uIU/mL,2.0-19.6,Fasting: Yes; HOMA-IR ~1.8; good insulin sensitivity trend,Insulin
+1/15/2026,Thyroid,TSH,2,mIU/L,0.4-4.0,Fasting: No; stable,TSH
+1/15/2026,CBC,WBC,5.8,10³/uL,4.5-11.0,Fasting: No,WBC
+1/15/2026,CBC,RBC,5.1,106/uL,4.5-5.9,Fasting: No,RBC
+1/15/2026,CBC,Hemoglobin,15.3,g/dL,13.5-17.5,Fasting: No,Hgb
+1/15/2026,CBC,Hematocrit,45.2,%,41-53,Fasting: No,Hct
+1/15/2026,CBC,Platelets,231,10³/uL,150-400,Fasting: No,PLT
+1/15/2026,Inflammation,hsCRP,0.9,mg/L,<1.0,Fasting: No; now within normal range; best result,hsCRP
+1/15/2026,Vitamins,Vitamin D (25-OH),42,ng/mL,30-100,Fasting: No; optimal on D3 2000 IU,VitD
+1/15/2026,Vitamins,B12,398,pg/mL,200-900,Fasting: No; continued slow decline on metformin; monitor,B12
+1/20/2025,Vitals,Systolic Blood Pressure,132,mmHg,<120,Clinic measurement; seated 5 min rest,SBP
+1/20/2025,Vitals,Diastolic Blood Pressure,84,mmHg,<80,Clinic measurement; seated 5 min rest,DBP
+1/20/2025,Vitals,Heart Rate,56,bpm,60-100,Resting; athlete range acceptable,HR
+1/20/2025,CMP,Glucose,106,mg/dL,70-99,Fasting: Yes; still prediabetes range; mild improvement,FBG
+1/20/2025,CMP,BUN,15,mg/dL,20-Jul,Fasting: Yes,BUN
+1/20/2025,CMP,Creatinine,1.04,mg/dL,0.74-1.35,Fasting: Yes; stable on ACE inhibitor,Cr
+1/20/2025,CMP,eGFR,76,mL/min/1.73m²,>60,Fasting: Yes; stable,eGFR
+1/20/2025,CMP,Sodium,139,mEq/L,136-145,Fasting: Yes,Na
+1/20/2025,CMP,Potassium,4.3,mEq/L,3.5-5.1,Fasting: Yes; stable on ACE inhibitor,K
+1/20/2025,CMP,Chloride,101,mEq/L,98-107,Fasting: Yes,Cl
+1/20/2025,CMP,CO2,26,mEq/L,22-29,Fasting: Yes,CO2
+1/20/2025,CMP,Calcium,9.5,mg/dL,8.6-10.2,Fasting: Yes,Ca
+1/20/2025,CMP,Total Protein,7.2,g/dL,6.4-8.3,Fasting: Yes,TP
+1/20/2025,CMP,Albumin,4.4,g/dL,3.5-5.0,Fasting: Yes,Alb
+1/20/2025,CMP,Total Bilirubin,0.8,mg/dL,0.2-1.2,Fasting: Yes,TBili
+1/20/2025,CMP,AST,24,U/L,Oct-40,Fasting: Yes; statin monitoring; improved,AST
+1/20/2025,CMP,ALT,27,U/L,Jul-56,Fasting: Yes; statin monitoring; improved,ALT
+1/20/2025,CMP,Alkaline Phosphatase,68,U/L,44-147,Fasting: Yes,ALP
+1/20/2025,Lipids,Total Cholesterol,140,mg/dL,<200,Fasting: Yes; improved,TC
+1/20/2025,Lipids,LDL Cholesterol (calculated),66,mg/dL,<70,Fasting: Yes; approaching target,LDL
+1/20/2025,Lipids,HDL Cholesterol,58,mg/dL,>40,Fasting: Yes; improved,HDL
+1/20/2025,Lipids,Triglycerides,82,mg/dL,<150,Fasting: Yes; improved,TG
+1/20/2025,Lipids,Non-HDL Cholesterol,82,mg/dL,<100,Fasting: Yes; at target,Non-HDL
+1/20/2025,Lipids,ApoB,79,mg/dL,<80,Fasting: Yes; at target,ApoB
+1/20/2025,Diabetes,HbA1c,5.8,%,<5.7,Fasting: No; prediabetes range; mild improvement on metformin,A1c
+1/20/2025,Diabetes,Fasting Insulin,8.1,uIU/mL,2.0-19.6,Fasting: Yes; HOMA-IR ~2.1; improving insulin sensitivity,Insulin
+1/20/2025,Thyroid,TSH,2.3,mIU/L,0.4-4.0,Fasting: No; stable,TSH
+1/20/2025,CBC,WBC,6,10³/uL,4.5-11.0,Fasting: No,WBC
+1/20/2025,CBC,RBC,5,106/uL,4.5-5.9,Fasting: No,RBC
+1/20/2025,CBC,Hemoglobin,15.1,g/dL,13.5-17.5,Fasting: No,Hgb
+1/20/2025,CBC,Hematocrit,44.8,%,41-53,Fasting: No,Hct
+1/20/2025,CBC,Platelets,224,10³/uL,150-400,Fasting: No,PLT
+1/20/2025,Inflammation,hsCRP,1.2,mg/L,<1.0,Fasting: No; still mildly elevated but improving,hsCRP
+1/20/2025,Vitamins,Vitamin D (25-OH),38,ng/mL,30-100,Fasting: No; now optimal on D3 2000 IU,VitD
+1/20/2025,Vitamins,B12,442,pg/mL,200-900,Fasting: No; monitor on metformin; slight decline,B12
+1/15/2024,Vitals,Systolic Blood Pressure,138,mmHg,<120,Clinic measurement; seated 5 min rest,SBP
+1/15/2024,Vitals,Diastolic Blood Pressure,88,mmHg,<80,Clinic measurement; seated 5 min rest,DBP
+1/15/2024,Vitals,Heart Rate,58,bpm,60-100,Resting; athlete range acceptable,HR
+1/15/2024,CMP,Glucose,112,mg/dL,70-99,Fasting: Yes; prediabetes range,FBG
+1/15/2024,CMP,BUN,16,mg/dL,20-Jul,Fasting: Yes,BUN
+1/15/2024,CMP,Creatinine,1.02,mg/dL,0.74-1.35,Fasting: Yes; monitor on ACE inhibitor,Cr
+1/15/2024,CMP,eGFR,78,mL/min/1.73m²,>60,Fasting: Yes; adequate renal function,eGFR
+1/15/2024,CMP,Sodium,140,mEq/L,136-145,Fasting: Yes,Na
+1/15/2024,CMP,Potassium,4.2,mEq/L,3.5-5.1,Fasting: Yes; monitor on ACE inhibitor,K
+1/15/2024,CMP,Chloride,102,mEq/L,98-107,Fasting: Yes,Cl
+1/15/2024,CMP,CO2,25,mEq/L,22-29,Fasting: Yes,CO2
+1/15/2024,CMP,Calcium,9.4,mg/dL,8.6-10.2,Fasting: Yes,Ca
+1/15/2024,CMP,Total Protein,7.1,g/dL,6.4-8.3,Fasting: Yes,TP
+1/15/2024,CMP,Albumin,4.3,g/dL,3.5-5.0,Fasting: Yes,Alb
+1/15/2024,CMP,Total Bilirubin,0.7,mg/dL,0.2-1.2,Fasting: Yes,TBili
+1/15/2024,CMP,AST,28,U/L,Oct-40,Fasting: Yes; statin monitoring,AST
+1/15/2024,CMP,ALT,32,U/L,Jul-56,Fasting: Yes; statin monitoring; upper normal,ALT
+1/15/2024,CMP,Alkaline Phosphatase,72,U/L,44-147,Fasting: Yes,ALP
+1/15/2024,Lipids,Total Cholesterol,142,mg/dL,<200,Fasting: Yes,TC
+1/15/2024,Lipids,LDL Cholesterol (calculated),68,mg/dL,<70,Fasting: Yes; above post-ASCVD target,LDL
+1/15/2024,Lipids,HDL Cholesterol,58,mg/dL,>40,Fasting: Yes,HDL
+1/15/2024,Lipids,Triglycerides,82,mg/dL,<150,Fasting: Yes,TG
+1/15/2024,Lipids,Non-HDL Cholesterol,84,mg/dL,<100,Fasting: Yes,Non-HDL
+1/15/2024,Lipids,ApoB,82,mg/dL,<80,Fasting: Yes; above post-ASCVD target,ApoB
+1/15/2024,Diabetes,HbA1c,5.9,%,<5.7,Fasting: No; prediabetes range (5.7-6.4%),A1c
+1/15/2024,Diabetes,Fasting Insulin,9.2,uIU/mL,2.0-19.6,Fasting: Yes; HOMA-IR ~2.6; borderline insulin resistance,Insulin
+1/15/2024,Thyroid,TSH,2.1,mIU/L,0.4-4.0,Fasting: No,TSH
+1/15/2024,CBC,WBC,6.2,10³/uL,4.5-11.0,Fasting: No,WBC
+1/15/2024,CBC,RBC,4.9,106/uL,4.5-5.9,Fasting: No,RBC
+1/15/2024,CBC,Hemoglobin,14.8,g/dL,13.5-17.5,Fasting: No,Hgb
+1/15/2024,CBC,Hematocrit,44.2,%,41-53,Fasting: No,Hct
+1/15/2024,CBC,Platelets,218,10³/uL,150-400,Fasting: No,PLT
+1/15/2024,Inflammation,hsCRP,1.8,mg/L,<1.0,Fasting: No; mildly elevated; cardiovascular risk marker,hsCRP
+1/15/2024,Vitamins,Vitamin D (25-OH),28,ng/mL,30-100,Fasting: No; slightly below optimal; on D3 2000 IU,VitD
+1/15/2024,Vitamins,B12,498,pg/mL,200-900,Fasting: No; monitor on metformin,B12
