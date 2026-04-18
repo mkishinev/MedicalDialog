@@ -20,11 +20,13 @@ Here we discuss details on
 
  
  **Who sees it?**
-	→ You + the system and limited internal access inside the company which develops your AI system. 
+	* You + the system and limited internal access inside the company which develops your AI system.
+	
  **Is it secure?**
-	→ Yes, by modern cloud standards.
+	* Yes, by modern cloud standards.
+	
  **Is it fully private like a hospital record?**
-	→ No — it’s not HIPAA-protected infrastructure. Privacy protection is not as strong as a hospital Electronic Medical Record system.
+	* No — it’s not HIPAA-protected infrastructure. Privacy protection is not as strong as a hospital Electronic Medical Record system.
   
 ### How to maximize privacy 
   

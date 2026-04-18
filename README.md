@@ -35,6 +35,7 @@ MedicalDialog/
 ├── README.md
 ├── LICENSE
 ├── DISCLAIMER.md
+├── HOWTO.md                ← details of using AI systems
 ├── instructions.md         ← instructions to AI systems
 ├── templates/         ← templates that you will fill with the user information
 │   ├── medical_summary.md  ← short personal medical history
