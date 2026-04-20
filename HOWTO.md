@@ -146,8 +146,9 @@ This file reflects major medical events that you remember or can find in your me
 
 ### Medication and treatments file
 Create medications_and_treatements.md file manually using the template in templates/medications_and_treatements.md and med_history_example/medications_and_treatements.md
+
 	* Include only recurring medications here. If a dentist prescribed you Tylenol for a few days after a dental procedure no need to include such short term meds.
-    * If you stopped some meds don't remove the row from the table. Add "stopped" in the proper column instead.	
+	* If you stopped some meds don't remove the row from the table. Add "stopped" in the proper column instead.	
 
  
 ---
