@@ -282,7 +282,7 @@ Use the same AI tool to generate a new entry from a new imaging or procedure sum
       reference_or_interpretation: "No calcification detected"
   impression: "Moderate coronary artery calcification with Agatston score of 142, predominantly in the LAD consistent with known ASCVD and prior PCI. Findings support continuation of high-intensity statin and ezetimibe therapy. Score places patient above the 75th percentile for age and sex, confirming high cardiovascular risk category."
   recommendations: "Continue aggressive LDL and ApoB lowering therapy. Reassess CAC in 3-5 years or sooner if lipid targets not maintained. Discuss elevated Lp(a) in context of CAC findings with cardiologist."
-  source_file: "CAC_scan_2026-03-20.pdf"
+  source_file: "new_scan.pdf"
 ```
 
 ---

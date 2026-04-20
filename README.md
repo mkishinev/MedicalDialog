@@ -55,10 +55,9 @@ MedicalDialog/
 │   ├── dialog3.md          ← example of a dialog in markdown
 │   └── dialog3.pdf         ← the same dialog example in PDF
 ├── updates/           ← examples of updating medical information with assistance from the AI system 
-│   ├── medications_update.md  ← update of medications
-│   ├── labs_update.md         ← updates of labs results
+│   ├── medications_and_treatments_after_update.md  ← update of medications
+│   ├── imaging_and_procedures_after_update.md      ← update of imaging and procedures
 │   ├── new_labs.pdf           ← new labs results in a PDF format
-│   ├── imaging_and_procedures_update.md  ← update of imaging and procedures
 │   └── new_scan.pdf           ← new imaging result in a PDF format
 └── setup/
     ├── claude_projects.md
@@ -94,6 +93,10 @@ The medical_summary.md template was uploaded to the AI system together with the 
 All files in the med_history_examples folder were subsequently created by the same AI assistant guided 
 by the templates and manually edited a little to produce a clearer medical narrative.
 
+## How many MedicalDialog assistants do I need?
+ 
+If you want to have medical dialogues for more than one person, e.g., for members of your family, 
+you need to setup an assistant per person.
 
 ## Status
 

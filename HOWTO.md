@@ -150,7 +150,6 @@ Create medications_and_treatements.md file manually using the template in templa
 	* Include only recurring medications here. If a dentist prescribed you Tylenol for a few days after a dental procedure no need to include such short term meds.
 	* If you stopped some meds don't remove the row from the table. Add "stopped" in the proper column instead.	
 
- 
 ---
  
 ## Prompt optimization
@@ -202,9 +201,3 @@ E.g., the first prompt of dialogues/dialog2 was obtained with ChatGPT as follows
   ```
 
  
----
- 
-## How many MedicalDialog assistants do I need?
- 
- If you want to have medical dialogues for more than one person, e.g., for members of your family, 
- you need to setup an assistant per person.
