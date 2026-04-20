@@ -11,12 +11,13 @@ Here we discuss details on
 ## Data privacy and security
 
  The data you upload and the chats are private to you, not publicly visible, not shared with other users. 
+ 
  The data you have uploaded is encrypted both in transit (while you interact with the AI system) 
  and at rest on cloud servers.
 
  **Caveat:** Conversations may be used to improve models through data training and limited human reviews at the developing company. 
  While you can turn off the permission to use your data for training in the setup of your AI system, 
- it comes with a significant drawback: your chats will be kept and available to you for a very limited time (72 hours instead of 18 months).  
+ it comes with a significant drawback: your chats will be kept and available to you for a very limited time.  
 
  
  **Who sees it?** You + the system and limited internal access inside the company which develops the AI system.
@@ -27,9 +28,9 @@ Here we discuss details on
   
 ### How to maximize privacy 
   
-  **Anonymize your data:**
+	**Anonymize your data:**
   
-    * Use pseudonyms instead of real names in medical history files.
+	* Use pseudonyms instead of real names in medical history files.
 	* Remove names and locations from all uploaded labs, scans, procedure reports when creating and updating medical history. 
 	  If these reports are in PDF, you can use a PDF editor to modify the report before uploading (e.g., PDFgear).
 	* Never include highly sensitive information like SSN, insurance IDs, exact date of birth, etc. 
@@ -45,28 +46,22 @@ Here we discuss details on
 
 Medical summary and medications files are created manually in a text editor.
 
-More complex Imaging and procedures file and labs csv file are creted with the help of your MedicalDialog assistant.
+More complex Imaging and procedures file and labs csv file are created with the help of your MedicalDialog assistant as follows:
+  * Setup the MedicalDialog assistant with partially filled files as described in setup/. 
+  * Add templates for imaging_and_procedurs.md and labs.csv even if they are empty.
+  * Go to your MedicalDialog assistant (project in ChatGPT and Claude or Gem in Gemini).
+  * Follow steps below
 
-### Medical summary file
-Create medical summary file manually using the template in templates/medical_summary.md and med_history_example/medical_summary.md.
-This file reflects major medical events that you remember or can find in your medical history. 
-
-### Medication and treatments file
-Create medicaions_and_treatements.md file manually using the template in templates/medications_and_treatements.md and med_history_example/medicaions_and_treatements.md
-	* Put only recurring medications here. If a dentist prescribed you Tylenol for a few days after a dental procedure no need to include such short term meds.
-    * If you stopped some meds do not remove the row from the table. Add "stopped" in the proper column instead.	
 
 ### Imaging and procedures file
-Setup the MedicalDialog assistant with partially filled files as described in setup/. 
-Add templates for imaging_and_procuders.md and labs.csv even if they are empty.
-Go to your MedicalDialog assistant (project in ChatGPT and Claude or Gem in Gemini).
 
 Let's say we want to add Nick's new_scan.pdf information. Conduct the following dialog:
 
- > **User:** Generate an md section for the imaging_and_procedures.md file based on the following imaging report.
-   Upload new_scan.pdf alongside the above prompt.
+  > **User:** Generate an md section for the imaging_and_procedures.md file based on the following imaging report.
+   
+   * Upload new_scan.pdf alongside the above prompt.
   
-  > **Assistant:**  (ChatGPT example)
+  > **Assistant:**  (ChatGPT)
   Here is a ready-to-append MD block for your Imaging_and_Procedures.md, formatted exactly per your schema and grounded strictly in the uploaded report.
   ```
   - study_type: "CT Coronary Artery Calcium Scoring (CAC)"
@@ -111,8 +106,49 @@ Append this markdown section within the triple backticks (\```\) into the previo
 
 After updates are done upload it to your MedicalDialog Assistant in ChatGPT, Gemini, or Claude replacing the prior version. 
 
+If your results are not in PDF form, but on paper or available on the website take a photo and upload it instead of a PDF.
+
 
 ### Labs file
+
+Let's say we want to add Nick's new_labs.pdf information. Conduct the following dialog:
+
+ > **User:** Generate a csv section for the labs.csv file based on the following labs report in PDF. Use date format MM-DD-YYYY.
+
+	* Upload new_labs.pdf alongside the above prompt.
+	
+ > **Assistant:**  (ChatGPT)
+   Here is an append-ready CSV section using MM-DD-YYYY date format, based directly on the uploaded PDF
+  ```
+	03-15-2026,Lipids,Total Cholesterol,142,mg/dL,<200,Fasting: Yes,
+	03-15-2026,Lipids,LDL Cholesterol (calculated),68,mg/dL,<70,Fasting: Yes; at target,LDL
+	03-15-2026,Lipids,HDL Cholesterol,58,mg/dL,>40,Fasting: Yes; excellent; exercise effect,HDL
+	03-15-2026,Lipids,Triglycerides,82,mg/dL,<150,Fasting: Yes; excellent,Tri
+	03-15-2026,Lipids,Non-HDL Cholesterol,84,mg/dL,<100,Fasting: Yes; at target,
+	03-15-2026,Lipids,ApoB,68,mg/dL,<80,Fasting: Yes; at target,ApoB
+	03-15-2026,Lipids,Lipoprotein(a),90,nmol/L,<75,Fasting: Yes; elevated; genetic; not responsive to statin therapy; discuss with cardiologist,Lp(a)
+  ```  
+  
+   One cleanup note: your existing file uses the marker name “Apolipoprotein B” for prior entries, while this report labels it “ApoB.” If you want strict longitudinal consistency, I’d recommend this alternate row instead:
+   ```
+   03-15-2026,Lipids,Apolipoprotein B,68,mg/dL,<80,Fasting: Yes; at target,ApoB
+   ```
+   
+Append this csv section at the top of the labs.csv.
+
+After updates are done upload it to your MedicalDialog Assistant in ChatGPT, Gemini, or Claude replacing the prior version. 
+
+If your results are not in PDF form, but on paper or available on the website take a photo and upload it instead of a PDF.
+
+### Medical summary file
+Create medical summary file manually using the template in templates/medical_summary.md and med_history_example/medical_summary.md.
+This file reflects major medical events that you remember or can find in your medical history. 
+
+### Medication and treatments file
+Create medications_and_treatements.md file manually using the template in templates/medications_and_treatements.md and med_history_example/medications_and_treatements.md
+	* Include only recurring medications here. If a dentist prescribed you Tylenol for a few days after a dental procedure no need to include such short term meds.
+    * If you stopped some meds don't remove the row from the table. Add "stopped" in the proper column instead.	
+
  
 ---
  
@@ -122,7 +158,7 @@ Prompt optimization makes your question easier for a model to reason about corre
 The goal is to reduce ambiguity, control the scope, and guide the structure of the answer so you get something accurate, 
 comparable, and useful rather than generic.
 
-for a more productive dialog with an AI system it is useful  to run your "raw" prompts through prompt optimization using 
+For a more productive dialog with an AI system it is useful  to run your "raw" prompts through prompt optimization using 
 the same (or different) AI system.
 
 E.g., the first prompt of dialogues/dialog2 was obtained with ChatGPT as follows:
