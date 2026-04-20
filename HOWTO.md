@@ -113,11 +113,11 @@ If your results are not in PDF form, but on paper or available on the website ta
 
 Let's say we want to add Nick's new_labs.pdf information. Conduct the following dialog:
 
- > **User:** Generate a csv section for the labs.csv file based on the following labs report in PDF. Use date format MM-DD-YYYY.
+  > **User:** Generate a csv section for the labs.csv file based on the following labs report in PDF. Use date format MM-DD-YYYY.
 
-	* Upload new_labs.pdf alongside the above prompt.
+   * Upload new_labs.pdf alongside the above prompt.
 	
- > **Assistant:**  (ChatGPT)
+  > **Assistant:**  (ChatGPT)
    Here is an append-ready CSV section using MM-DD-YYYY date format, based directly on the uploaded PDF
   ```
 	03-15-2026,Lipids,Total Cholesterol,142,mg/dL,<200,Fasting: Yes,
