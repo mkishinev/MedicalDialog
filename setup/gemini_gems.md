@@ -1,4 +1,4 @@
-# Setup Instructions: Nick's Medical Dialogues (Gemini Gem)
+# Setup Instructions for Gemini Gem
 
 To deploy Nick's Medical Dialogues configuration as a custom Gem in your Gemini account, 
 follow these steps.
