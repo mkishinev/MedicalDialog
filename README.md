@@ -68,9 +68,9 @@ MedicalDialog/
 ## Getting started
 
 	* Copy the template/ files and fill them in with your own health information. Follow examples in med_history_example.
-		* For labs.csv use assistance of an AI system as explained in updates_examples/labs_update.md
-		* For imaging_and_procedures.md use assistance of an AI system as explained in updates_examples/imaging_and_procedures_updated.md
-		* For medications.md see updates_examples/medications_updated.md
+		* For labs.csv use assistance of an AI system as explained in HOWTO.md
+		* For imaging_and_procedures.md use assistance of an AI system as explained in HOWTO.md
+		* For medications.md see med_history_example/medications.md and HOWTO.md
 		* Create medical_summary.md yourself in any text editor (e.g. notepad++) using the corresponding example in file_examples.
 	* Follow the setup guide for your AI platform of choice in setup/
 	* To understand how to interact with the system, look at the example queries in dialogues/ and try your queries. 
@@ -98,9 +98,8 @@ by the templates and manually edited a little to produce a clearer medical narra
 If you want to have medical dialogues for more than one person, e.g., for members of your family, 
 you need to setup an assistant per person.
 
-## Status
-
-Work in progress.
+If you have access to more than one AI system you can setup MedicalDialog in all of them to cross-check their answers.
+After you setup the first one, setup of the next one takes almost no time since all instructions and medical history files are exactly the same.
 
 ## License
 

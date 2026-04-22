@@ -6,26 +6,52 @@ Here we discuss details on
  * prompt optimization.
  
   
- ---
+---
  
 ## Data privacy and security
 
- The data you upload and the chats are private to you, not publicly visible, not shared with other users. 
+> The following is based on what ChatGPT, Claude, and Gemini have reported about their own data
+> practices in April 2026 — treat it as self-reported by each company, not as independently verified.
  
- The data you have uploaded is encrypted both in transit (while you interact with the AI system) 
- and at rest on cloud servers.
-
- **Caveat:** Conversations may be used to improve models through data training and limited human reviews at the developing company. 
- While you can turn off the permission to use your data for training in the setup of your AI system, 
- it comes with a significant drawback: your chats will be kept and available to you for a very limited time.  
-
+According to all three AI assistants, the data you upload and your chats are private to you —
+not publicly visible, not shared with other users.
  
- **Who sees it?** You + the system and limited internal access inside the company which develops the AI system.
-	
- **Is it secure?** Yes, by modern cloud standards.
-	
- **Is it fully private like a hospital record?** No — it’s not HIPAA-protected infrastructure. Privacy protection is not as strong as a hospital Electronic Medical Record system.
-  
+Data you upload is, per these companies' own claims, encrypted both in transit and at rest on
+their cloud servers.
+ 
+### Who Sees It?
+ 
+According to each company: you, the AI system itself, and a limited number of internal staff at
+the developing company under controlled access policies.
+ 
+### Training on Your Data
+ 
+All three platforms may use your conversations to train future models, but each handles the
+opt-out differently. Claude and ChatGPT decouple training from conversation history — opting out
+of training has no effect on your ability to access past conversations. Gemini is different:
+opting out of training also *turns off conversation history saving, meaning you lose access to
+previous chats*. 
+ 
+### Data Retention
+ 
+For Claude and ChatGPT, your conversation history remains accessible in the UI until you delete
+it yourself. The 30-day retention figures cited in various sources refer only to how long data
+lingers on backend servers after you actively delete a conversation — not to any automatic
+expiration of your chat history. For Gemini, if you opt out of training and therefore lose
+history saving, conversations are retained for only 72 hours before deletion.
+ 
+### Is It Secure?
+ 
+Each company says yes, by modern cloud security standards. This is a self-assessment, not an
+independent audit result.
+ 
+### Is It Fully Private Like a Hospital Record?
+ 
+No. None of these platforms claim HIPAA-compliant infrastructure for standard
+consumer accounts. Their privacy protections, by their own admission, are weaker than what
+governs an Electronic Medical Record system. Don't use these tools for genuinely sensitive
+medical or legal information.
+ 
 ### How to maximize privacy 
   
 	**Anonymize your data:**
@@ -38,7 +64,11 @@ Here we discuss details on
 ### How to get more details 
   
   Ask your AI system regarding its data privacy and security, e.g.,
-  > **User:** Who can see Nick's data? How secure the data is? What about data privacy?
+  > **User:** 
+  (1) What is your retention policy as of April 2026? Can chats be stored indefinitely unless deleted by the user?
+  (2) How secure is data in transit and at rest in the cloud? 
+  (3) What is your data privacy policy? 
+  (4) Does data retention depends on the settings on opting-out from training? If training is set to off, is chat retention policy changes?
 
 --- 
  
@@ -135,6 +165,8 @@ Let's say we want to add Nick's new_labs.pdf information. Conduct the following 
    ```
    
 Append this csv section at the top of the labs.csv.
+
+**Note:** Sometimes the complex measurements units for certain labs (e.g., for eGFR, RBC, etc.) may get corrupted during conversion to csv. Correct them as needed.
 
 After updates are done upload it to your MedicalDialog Assistant in ChatGPT, Gemini, or Claude replacing the prior version. 
 
