@@ -10,24 +10,20 @@ To deploy Nick's Medical Dialogues configuration as a custom Claude Project, fol
 
 ## 2. Apply the Project Instructions (System Prompt)
 
-1. Inside the project, click the project name or the **⚙ Edit** / settings icon to open project settings.
-2. Locate the **Project Instructions** field (this is the system prompt applied to every conversation in the project).
-3. Copy the entire contents of `instructions.md` and paste them into the **Project Instructions** box.
+1. Inside the project, locate the **Instructions** field and click **+** (this is the system prompt applied to every conversation in the project).
+3. Copy the entire contents of `instructions.md` and paste them into the **Instructions** box.
 4. **Name the patient:** Replace every instance of `[PATIENT_NAME]` in the **ROLE** section with `Nick`.
 5. Save / confirm the changes.
 
 ## 3. Upload the Knowledge Base
 
-1. In the project settings, locate the **Project Knowledge** section.
-2. Click **Add Content** (or the file upload button).
-3. Upload the following four files:
+1. Inside the project, locate the **Files** section.
+2. Upload the following four files:
    * `medical_summary.md`
    * `imaging_and_procedures.md`
    * `medications_and_treatments.md`
    * `labs.csv`
 4. Confirm all four files appear in the project knowledge list.
-
-> **Note:** Claude Projects have a context window limit shared across instructions and uploaded files. If the combined size of your knowledge base files approaches the limit, consider splitting lab data by year or archiving older entries to a separate file.
 
 ## 4. Test the Project
 
@@ -55,7 +51,7 @@ If you need to refine the AI's behavior, communication style, or protocols:
 
 ## 6. Naming Conversations
 
-Chats within a project appear in the project's conversation list. To make individual sessions easier to navigate add dates to the chat names:
+Chats within a project appear in the project's conversation list. To make individual sessions easier to navigate you may add dates to the chat names:
 
 1. Hover over the chat in the sidebar.
 2. Click the **···** (three-dot) menu that appears.
