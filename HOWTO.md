@@ -63,12 +63,12 @@ medical or legal information.
 	
 ### How to get more details 
   
-  Ask your AI system regarding its data privacy and security, e.g.,
+  Ask your AI system about its data privacy and security, e.g.,
   > **User:** 
   (1) What is your retention policy as of April 2026? Can chats be stored indefinitely unless deleted by the user?
   (2) How secure is data in transit and at rest in the cloud? 
   (3) What is your data privacy policy? 
-  (4) Does data retention depends on the settings on opting-out from training? If training is set to off, is chat retention policy changes?
+  (4) Does data retention depend on the settings on opting out of training? If training is set to off, does the chat retention policy change?
 
 --- 
  

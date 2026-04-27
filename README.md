@@ -101,6 +101,31 @@ you need to setup an assistant per person.
 If you have access to more than one AI system you can setup MedicalDialog in all of them to cross-check their answers.
 After you setup the first one, setup of the next one takes almost no time since all instructions and medical history files are exactly the same.
 
+## Multilingual Support
+
+All modern LLMs — Claude, ChatGPT, and Gemini — are natively multilingual. You can interact with your MedicalDialog assistant in any language without modifying the core setup.
+
+### What works out of the box
+
+- Ask questions and receive responses in your preferred language — just write in that language and the assistant will follow.
+- Your medical history files (`medical_summary.md`, `medications.md`, etc.) can be written in any language.
+- The AI instructions file does not need to be translated — the assistant understands it in English regardless of what language you use in conversation.
+
+### Quality across languages
+
+Response quality is generally proportional to how well-represented a language is in the model's training data. Major world languages — Spanish, French, German, Portuguese, Chinese, Japanese, Arabic, Russian — perform very close to English. Less common languages may occasionally show gaps in medical terminology precision. When in doubt, ask the assistant to confirm its interpretation of a key term.
+
+### One practical tip — lab marker names
+
+Lab marker names vary significantly across countries and languages. For example, what is called "ALT" in the US may appear as "ALAT" or "GPT" on a European or Latin American lab report. To ensure the assistant reliably recognizes your markers regardless of the language of your lab reports, it is good practice to add English names and standard abbreviations in the `Alias` column of your `labs.csv`:
+
+```
+Marker: Alanine Aminotransferase
+Alias: ALT, ALAT, GPT
+```
+
+This small addition makes the assistant robust across lab report formats from different countries and healthcare systems.
+
 ## License
 
 MIT License. See LICENSE for details.
